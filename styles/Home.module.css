@@ -1,0 +1,57 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  color: white;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  font-size: 2em;
+  color: purple;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.paragraph {
+  font-size: 2em;
+}
+
+.linkInput {
+  height: 30px;
+  font-size: 1.5em;
+  color: purple;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.socialButton {
+  margin: 20px;
+}
